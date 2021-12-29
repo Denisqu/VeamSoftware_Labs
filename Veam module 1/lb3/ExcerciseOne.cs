@@ -13,7 +13,7 @@ namespace VeamSoftware_Labs.Veam_module_1.lb3
             {
                 elements.Add(new Element("Name#" + i));
             }
-            
+            // test
             // return concatenated string
             return Concatenator.Concatenate(elements, '|', 3);
         }
